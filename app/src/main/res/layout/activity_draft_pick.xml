@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DraftPickActivity">
+
+    <ImageView
+        android:id="@+id/card2"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card16"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card16"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card17"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card18"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card22"
+        app:layout_constraintTop_toBottomOf="@+id/card16"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card19"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card22"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card20"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card27"
+        app:layout_constraintTop_toBottomOf="@+id/card21"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card21"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card17"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card22"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card1"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card23"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card18"
+        app:layout_constraintTop_toBottomOf="@+id/card2"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card24"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card25"
+        app:layout_constraintTop_toBottomOf="@+id/card20"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card25"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card26"
+        app:layout_constraintTop_toBottomOf="@+id/card27"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card26"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card28"
+        app:layout_constraintTop_toBottomOf="@+id/card23"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card27"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card23"
+        app:layout_constraintTop_toBottomOf="@+id/card17"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/card28"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toEndOf="@+id/card19"
+        app:layout_constraintTop_toBottomOf="@+id/card18"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:text="@string/buttonTextPick"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/card1"
+        android:layout_width="53dp"
+        android:layout_height="74dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+</androidx.constraintlayout.widget.ConstraintLayout>

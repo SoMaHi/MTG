@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MTG</string>
+
+    //メイン画面
+    <string name="title">MTG</string>
+    <string name="draft">《ドラフト》</string>
+    <string name="draftOne">1人で</string>
+    <string name="deck">《デッキ》</string>
+    <string name="duel">《対戦》</string>
+
+    //ドラフト確認画面
+    <string name="announceStart">「スタート」を押すとドラフトが始まります。</string>
+    <string name="announcePickEnd1">「スタート」を押すと2パック目のピックが始まります。</string>
+    <string name="announcePickEnd2">「スタート」を押すと3パック目のピックが始まります。</string>
+    <string name="buttonTextStart">スタート</string>
+
+    //ドラフトピック画面
+    <string name="buttonTextPick">ピック</string>
+    <string name="genzaiPackSuu">要入力処理</string>
+    <string name="genzaiPackPickSuu">要入力処理</string>
+    <string name="onePackCardSuu">/15 枚目</string>
+
+
+</resources>
