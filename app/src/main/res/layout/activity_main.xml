@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/buttonDraftOne2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/draftOne"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="unnko" />
+
     <TextView
         android:id="@+id/textViewDraft"
         android:layout_width="0dp"
